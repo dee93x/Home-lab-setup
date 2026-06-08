@@ -10,7 +10,7 @@ A personal home lab built using VirtualBox and Ubuntu Linux to practise IT suppo
 
 ## Tasks Completed
 - [x] Task 1 — Terminal navigation and file management
-- [ ] Task 2 — Network diagnostics
+- [x ] Task 2 — Network diagnostics
 - [ ] Task 3 — User and permission management
 - [ ] Task 4 — Installing software with APT
 - [ ] Task 5 — System log analysis
