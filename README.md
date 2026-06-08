@@ -13,8 +13,8 @@ A personal home lab built using VirtualBox and Ubuntu Linux to practise IT suppo
 - [x] Task 2 — Network diagnostics
 - [x] Task 3 — User and permission management
 - [x] Task 4 — Installing software with APT
-- [ ] Task 5 — System log analysis
-- [ ] Task 6 — Process monitoring
+- [x] Task 5 — System log analysis
+- [x] Task 6 — Process monitoring
 
 ## What I Learned
        
@@ -64,6 +64,19 @@ A personal home lab built using VirtualBox and Ubuntu Linux to practise IT suppo
        sudo apt install net-tools   ← install classic network tools
        ifconfig                     ← now this command works (like ip a)
        sudo apt remove htop         ← uninstall htop
+
+       VIEW SYSTEM LOGS 
+       sudo journalctl -n 10        ← Pull up last 10 system log entries 
+
+       CHECK RUNNING PROCESSES 
+        ps aux                     ← all running processes
+        ps aux | grep firefox      ← filter for a specific process
+        top                        ← live process monitor (press Q to quit)
+        kill [PID]                 ← stop a process (replace [PID] with number)
+
+       
+
+       
        
 
        
